@@ -16,6 +16,7 @@
   }
   .icon-wrapper {
     display: flex;
+    font-size: 14px;
     justify-content: space-around;
   }
 </style>

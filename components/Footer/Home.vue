@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="~/assets/img/home_ico_off.png">
+    <img src="~/assets/img/home_ico_off.svg">
     <p>ホーム</p>
   </div>
 </template>
