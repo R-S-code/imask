@@ -15,6 +15,7 @@
     text-align: center;
   }
   .icon-wrapper {
+    color: #3383f5;
     display: flex;
     font-size: 14px;
     justify-content: space-around;

@@ -10,6 +10,7 @@
 
 <style lang="scss" scoped>
   div {
+    margin-bottom: 45px;
     position: relative;
     width: fit-content;
     select {
