@@ -6,7 +6,4 @@ export default defineNuxtConfig({
     "~/assets/css/destyle.css",
     "~/assets/css/common.scss"
   ],
-  buildModules: [
-    "@nuxtjs/style-resources",
-  ],
 })
