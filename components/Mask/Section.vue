@@ -34,14 +34,21 @@
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
     height: 130px;
-    margin-top: 25px;
+    margin: 25px 5px 0;
     padding: 10px 15px 0;
     position: relative;
     width: 180px;
+    &:hover {
+      opacity: 0.8;
+    }
     div:first-child {
       display: flex;
       justify-content: space-between;
+      p:last-child {
+        color: #57aeff;
+      }
     }
     div:last-child {
       margin:0 auto;
