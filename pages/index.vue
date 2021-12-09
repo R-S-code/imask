@@ -1,6 +1,7 @@
 <template>
   <div>
     <main>
+      <User />
       <Mask />
     </main>
     <Footer />
