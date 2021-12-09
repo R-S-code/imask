@@ -33,7 +33,9 @@
   .wrapper {
     background-color: white;
     border-radius: 20px;
-    height: 120px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.30);
+    height: 130px;
+    margin-top: 25px;
     padding: 10px 15px 0;
     position: relative;
     width: 180px;

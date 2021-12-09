@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>マスク</h2>
-    <div>
+    <div class="mask-wrapper">
       <MaskSection color="black" />
       <MaskSection color="green" />
       <MaskSection color="yellow" />
@@ -13,6 +13,11 @@
 <style lang="scss" scoped>
   h2 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+  }
+  .mask-wrapper  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 </style>
