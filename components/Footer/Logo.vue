@@ -1,8 +1,7 @@
 <template>
   <div>
-    <img src="~/assets/img/imask_logo.svg">
+    <img src="~/assets/img/imask_logo.svg" alt="iMask">
   </div>
-
 </template>
 
 <style lang="scss" scoped>

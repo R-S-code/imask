@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="~/assets/img/message_ico_off.svg">
+    <img src="~/assets/img/message_ico_off.svg" alt="メッセージアイコン">
     <p>メッセージ</p>
   </div>
 </template>

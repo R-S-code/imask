@@ -6,7 +6,9 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
     "nuxt3": "latest",
-    "sass": "^1.44.0"
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0"
   }
 }
