@@ -1,7 +1,9 @@
 <template>
   <div>
     <p>仕事</p>
-    <img src="~/assets/img/list_ico.svg" alt="リストアイコン">
+    <nuxt-link to="/theme">
+      <img src="~/assets/img/list_ico.svg" alt="リストアイコン">
+    </nuxt-link>
   </div>
 </template>
 
@@ -24,12 +26,12 @@
       transform: translateX(50%) translateY(-50%) ;
     }
     img {
-      height: 4px;
+      height: 6px;
       position: absolute;
       right: 20px;
       top: 50%;
       transform: translateY(-50%);
-      width: 16px;
+      width: 24px;
     }
   }
 </style>
