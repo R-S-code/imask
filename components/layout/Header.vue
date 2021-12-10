@@ -1,7 +1,7 @@
 <template>
   <header>
     <nuxt-link to="/">
-      <img src="~/assets/img/back_ico.svg" alt="戻るアイコン">
+      <BackIco />
     </nuxt-link>
     <h1>テーマ</h1>
   </header>
@@ -11,10 +11,6 @@
   header {
     padding: 65px 20px 25px;
     position: relative;
-    img {
-      height: 20px;
-      width: 20px;
-    }
     h1 {
       font-size: 18px;
       position: absolute;

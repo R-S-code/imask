@@ -29,5 +29,8 @@
       right: 0;
       transform: translateY(5px);
     };
+    &:hover {
+      opacity: 0.8;
+    }
   }
 </style>
