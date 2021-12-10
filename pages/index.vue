@@ -1,9 +1,9 @@
 <template>
   <div>
     <main>
-      <User />
-      <Theme />
-      <Mask />
+      <IndexUser />
+      <IndexTheme />
+      <IndexMask />
     </main>
     <Footer />
   </div>

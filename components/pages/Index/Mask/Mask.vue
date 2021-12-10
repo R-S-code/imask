@@ -2,10 +2,10 @@
   <div>
     <h2>マスク</h2>
     <div class="mask-wrapper">
-      <MaskSection color="black" />
-      <MaskSection color="green" />
-      <MaskSection color="yellow" />
-      <MaskSection color="red" />
+      <IndexMaskSection color="black" />
+      <IndexMaskSection color="green" />
+      <IndexMaskSection color="yellow" />
+      <IndexMaskSection color="red" />
     </div>
   </div>
 </template>
