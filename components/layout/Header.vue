@@ -1,11 +1,34 @@
 <template>
   <header>
-    <nuxt-link to="/">
+    <nuxt-link :to="back_link">
       <BackIco />
     </nuxt-link>
-    <h1>テーマ</h1>
+    <h1>{{page_name}}</h1>
   </header>
 </template>
+
+<script lang="ts">
+  export default {
+    props: {
+      page_name: { 
+        type: String,
+        required: true
+      },
+      back_link: { 
+        type: String,
+        required: true
+      }
+    },
+    setup(props) {
+      let page_name:string = props.page_name
+      let back_link:string = props.back_link 
+      return {
+        page_name,
+        back_link
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   header {
