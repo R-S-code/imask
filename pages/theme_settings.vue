@@ -6,21 +6,29 @@
         <div>
           <h2>テーマ名</h2>
           <p>仕事</p>
-          <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          <nuxt-link to="/stamps">
+            <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          </nuxt-link>
         </div>
         <div>
           <h2>スタンプ</h2>
           <img src="~/assets/img/smile_ico.png" alt="スタンプアイコン" class="stamp-ico">
-          <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          <nuxt-link to="/stamps">
+            <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          </nuxt-link>
         </div>
         <div>
           <h2>センサー感度</h2>
           <p>50%</p>
-          <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          <nuxt-link to="/stamps">
+            <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          </nuxt-link>
         </div>
         <div>
           <h2>背景画像</h2>
-          <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          <nuxt-link to="/stamps">
+            <img src="~/assets/img/right_arrow.svg" alt="右矢印">
+          </nuxt-link>
         </div>
         <ThemeSettingsBg />
       </div>
@@ -30,10 +38,11 @@
 
 <style lang="scss" scoped>
   main {
-    padding: 0px 20px 475px;
+    padding: 45px 20px 475px;
   }
   .settings-list {
     div {
+      align-items: center;
       display: flex;
       margin-bottom: 30px;
       h2 {

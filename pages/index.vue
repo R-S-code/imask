@@ -1,11 +1,11 @@
 <template>
   <div>
     <main>
-      <IndexUser />
+      <User />
       <ThemeSection theme="仕事" link="/theme" class="theme-section" />
       <IndexMask />
     </main>
-    <Footer />
+    <Footer home_onoff="on" msg_onoff="off" />
   </div>
 </template>
 
