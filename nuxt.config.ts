@@ -12,10 +12,5 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/destyle.css",
     "~/assets/css/common.scss"
-  ],
-  router: {
-    scrollBehavior: function (to, from, savedPosition) {
-      return { x: 0, y: 0 }
-    }
-  }
+  ]
 })
