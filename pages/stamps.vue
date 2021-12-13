@@ -2,31 +2,50 @@
   <div>
     <Header page_name="スタンプ" back_link="/theme_settings" />
     <main>
+      <nuxt-link to="/stamp_set">
+        <div>
+          <img src="~/assets/img/smile_stamp.png" alt="スタンプ">
+          <p>FaceBook</p>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="/stamp_set">
+        <div>
+          <img src="~/assets/img/smile_stamp.png" alt="スタンプ">
+          <p>FaceBook</p>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="/stamp_set">
+        <div>
+          <img src="~/assets/img/smile_stamp.png" alt="スタンプ">
+          <p>FaceBook</p>
+        </div>
+      </nuxt-link>
     </main>
   </div>
 </template>
 
 <style lang="scss" scoped>
   main {
-    padding: 45px 20px 475px;
-  }
-  .settings-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px 20px 675px;
     div {
-      display: flex;
-      margin-bottom: 30px;
-      h2 {
-        margin-right: auto;
+      border-radius: 20px;
+      height: 165px;
+      padding-top: 20px;
+      text-align: center;
+      width: 125px;
+      img {
+        height: 85px;
+        width: 85px;
       }
-      img:last-child {
-        display: inline-block;
-        height: 20px;
-        margin-left: 10px;
-        width: 20x;
+      p {
+        font-size: 14px;
+        margin-top: 20px;
       }
-    }
-    .stamp-ico {
-      height: 26px;
-      width: 26px;
+      &:hover {
+        outline: 1px solid #3383F5;
+      }
     }
   }
 </style>
